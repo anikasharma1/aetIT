@@ -39,7 +39,7 @@ make install
 npm test
 ```
 
-## Release History
+## Release History 
 
 * 0.1.1 3-18-2019
     * Navbar, jumbotron
