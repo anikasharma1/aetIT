@@ -432,6 +432,17 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 /* header area 2 */
 /*--------------------------------------------------*/
+.imagedarken{
+      content: "";
+      display: block;
+      position: fixed;
+      padding: 100px 0;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(black, 0.5);
+}
 /* slider_area */
 .slider_area .slider_inner .camera_caption {
   height: 100%;
