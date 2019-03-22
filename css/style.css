@@ -710,7 +710,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   z-index: 2;
 }
 .what_we_area .construction_iner .construction .cns-img img {
-  max-width: 100%;
+  /**max-width: 100%;
+  */
+  height: 200px;
+  width: px;
 }
 .what_we_area .construction_iner .construction .cns-content {
   background: #fff;
