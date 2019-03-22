@@ -2691,6 +2691,25 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     padding-top: 10px;
   }
 }
+
+.form-inline .form-control {
+    width: 60%;
+    height: 40%;
+    left: 10%;
+}
+
+.button_all {
+    width: 20%;
+    height: 40%;
+    outline: 2px solid black;
+    left:40%
+
+}
+
+.book_now_aera .container {
+  text-align: center;
+}
+
 /*--------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
