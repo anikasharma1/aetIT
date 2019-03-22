@@ -710,10 +710,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   z-index: 2;
 }
 .what_we_area .construction_iner .construction .cns-img img {
-  /**max-width: 100%;
-  */
   height: 200px;
-  width: px;
+  width: 300px;
 }
 .what_we_area .construction_iner .construction .cns-content {
   background: #fff;
@@ -1136,7 +1134,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-right: 30px;
 }
 .testimonial_area .testimonial_carosel .item .media .media-left a img {
-  width: auto;
+  width: 100px;
+  height: 120px;
 }
 .testimonial_area .testimonial_carosel .item .media .media-body {
   padding-top: 40px;
@@ -2441,7 +2440,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 
   .what_we_area .construction_iner .construction {
-    max-width: 390px;
+    max-width: 360px;
     margin: 0 auto;
   }
 
@@ -2633,6 +2632,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
   .what_we_area .construction_iner .construction .cns-content {
     padding: 0 10px;
+
     padding-bottom: 20px;
   }
 
