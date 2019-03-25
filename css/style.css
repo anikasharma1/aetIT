@@ -710,8 +710,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   z-index: 2;
 }
 .what_we_area .construction_iner .construction .cns-img img {
+  /**max-width: 100%;
+  */
   height: 200px;
-  width: 300px;
+  width: px;
 }
 .what_we_area .construction_iner .construction .cns-content {
   background: #fff;
@@ -1134,8 +1136,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-right: 30px;
 }
 .testimonial_area .testimonial_carosel .item .media .media-left a img {
-  width: 100px;
-  height: 120px;
+  width: auto;
 }
 .testimonial_area .testimonial_carosel .item .media .media-body {
   padding-top: 40px;
@@ -2387,6 +2388,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 @media (max-width: 767px) {
+
   .top_header_area .top_nav li {
     display: inline-block;
   }
@@ -2440,7 +2442,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 
   .what_we_area .construction_iner .construction {
-    max-width: 360px;
+    max-width: 390px;
     margin: 0 auto;
   }
 
@@ -2632,7 +2634,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
   .what_we_area .construction_iner .construction .cns-content {
     padding: 0 10px;
-
     padding-bottom: 20px;
   }
 
@@ -2708,6 +2709,11 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 .book_now_aera .container {
   text-align: center;
+}
+
+.container .navbar .navbar-default .header_aera .affix-top{
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /*--------------------------------------------------*/
