@@ -1,12 +1,17 @@
-# Product Name
-> Short blurb about what your product does.
+# AET IT Website
+>.A website that provides information about the AET IT pathway
 
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-One to two paragraph statement about your product and what it does.
+The AET IT website will provide general information about the pathway to parents
+and other members of the community that may not be as familiar about the program.
+
+The website will also serve as a useful tool for students since they will gain
+access to relevant opportunities available to them in a streamlined fashion all
+in one location (the Student Center)
 
 ![](header.png)
 
@@ -26,39 +31,73 @@ edit autoexec.bat
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+This product can be used by AET in order to promote the IT pathway to visitors and community members alike.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
 ```sh
 make install
 npm test
 ```
 
-## Release History 
+## Release History
 
-* 0.1.1 3-18-2019
-    * Navbar, jumbotron
-      * ADD: signup buttons in Navbar
-      * CHANGE:  Background Photo in jumbotron
-      * CHANGE: Color Scheme to match customer requirements (blue/teal)
+* 0.0.1 3-18-2019
+    * downloaded template from colorlib
 
+* 0.1.0 3-18-2019
+  * made changes to index.html
+    *  removed unnecessary template materials pertaining to the homepage
+    * changed the footer and replaced it with the top header
 
 * 0.2.1 3-20-2019
-    * Made changes based on CSR #1
-      *  ADD: Logo in left hand corner
-      *  CHANGE: Text under signup buttons
+    * Made changes to index.html
+      *  created and added logotest.png
+      *  removed search Icon
+      *  created nav bar headers to match our own
+      * get rid of additional unnecessary content on the homepage
+      * made structural changes to the "what we offer" tab
 
+
+  * 0.3.0 3-21-2019
+      * Made changes to index.html
+        *  edited the to-be-feedback Section
+      * made changes to style.CSS
+        * fixed formatting and stylistic elements of the feedback Section
+
+    * 0.3.5 3-22-2019
+        * Made changes to index.html
+          *  changed the main slideshow background and edited the images
+          * formatted the feedback section of the homepage
+          * updated with new graphics and pictures
+        * Made changes to style.css
+          * adjusted the sizing of the images in the "what_we_area" class
+
+      * 0.5.0 3-25-2019
+          * Made changes to index.html
+            *  additional add-ons to the homepage
+            * removal of strange text not needed
+            * updated the navbar headings and linked the Academies Website
+            * adjusted slideshow text and external links
+            * QOL changes to navbar
+          * Made changes to about.html
+            * took out all unnecessary contents
+            * added a table section and class
+            * created and adjusted course tables for courses offered tables
+          * made changes to about-2.html
+            * took out all unnecessary contents
+            * edited file to create Student Center page
+            * adjusted text and wording on images
+          * made changes to style.CSS
+            * corrected css class of 'tables' to adjust formatting for courses offered page
+            * adjusted fonts and padding of elements as needed
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Anika Sharma and Alfred Prenkunar – [@YourTwitter](https://twitter.com/dbader_org) – anika.emails@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the Colorlib license. See ``Colorlib`` for more information.
 
 [https://github.com/yourname/github-link](https://github.com/dbader/)
 
