@@ -125,6 +125,7 @@ This files contents are outlined below.
 .subtittle h5 {
   font: 400 14px "Roboto", sans-serif;
   color: #555555;
+  padding-top: 22px;
 }
 
 /* Preloader */
@@ -566,9 +567,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End slider_area_tow */
 /* Banner Area */
 .banner_area {
-  background: url("http://www.centralgatech.edu/wp-content/uploads/2017/08/programming.jpeg") no-repeat fixed;
-/*  width: 100%;*/
-  background-size: cover;
+  background: url("../images/banner-bg.jpg") no-repeat fixed;
   background-position: center;
   text-align: center;
   position: relative;
@@ -638,7 +637,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .about_us_area .about_row {
   padding-top: 70px;
   padding-bottom: 70px;
-  margin-left: 0;
 }
 .about_us_area .about_row p {
   font: 400 14px/26px "Roboto", sans-serif;
@@ -715,8 +713,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   z-index: 2;
 }
 .what_we_area .construction_iner .construction .cns-img img {
+  /**max-width: 100%;
+  */
   height: 200px;
-  width: 300px;
+  width: px;
 }
 .what_we_area .construction_iner .construction .cns-content {
   background: #fff;
@@ -1139,8 +1139,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-right: 30px;
 }
 .testimonial_area .testimonial_carosel .item .media .media-left a img {
-  width: 100px;
-  height: 120px;
+  width: auto;
 }
 .testimonial_area .testimonial_carosel .item .media .media-body {
   padding-top: 40px;
@@ -1448,19 +1447,19 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End blog_tow_area */
 /*--------------------------------------------------*/
 .call_min_area {
-  background: #42548a;
+  background: #4286f4;
   text-align: center;
-  border-top: 10px;
-  border-bottom: 10px;
-
+  padding-top: 85px;
+  padding-bottom: 100px;
 }
 .call_min_area h2 {
-  font: 30px "Oswald", sans-serif;
+  font: 400 60px "Roboto", sans-serif;
   color: #fff;
 }
 .call_min_area P {
-  font: 17px "Oswald", sans-serif;
-  color: white;
+  font: 400 30px/36px "Roboto", sans-serif;
+  color: #fefefe;
+  text-transform: uppercase;
   max-width: 900px;
   margin: 0 auto;
   padding-top: 8px;
@@ -1469,17 +1468,12 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .call_min_area .call_btn a {
   display: inline-block;
   border: 2px solid #fff;
-  font: 400 18px/56px "Oswald", sans-serif;
-  color: #000066;
+  font: 400 18px/56px "Roboto", sans-serif;
+  color: #fefefe;
   margin-left: 20px;
 }
 .call_min_area .call_btn a:first-child {
   margin-left: 0;
-}
-
-.table{
-margin-left: 550px;
-text-align: center;
 }
 
 /*--------------------------------------------------*/
@@ -2397,6 +2391,7 @@ text-align: center;
   }
 }
 @media (max-width: 767px) {
+
   .top_header_area .top_nav li {
     display: inline-block;
   }
@@ -2450,7 +2445,7 @@ text-align: center;
   }
 
   .what_we_area .construction_iner .construction {
-    max-width: 360px;
+    max-width: 390px;
     margin: 0 auto;
   }
 
@@ -2642,7 +2637,6 @@ text-align: center;
 
   .what_we_area .construction_iner .construction .cns-content {
     padding: 0 10px;
-
     padding-bottom: 20px;
   }
 
@@ -2718,6 +2712,11 @@ text-align: center;
 
 .book_now_aera .container {
   text-align: center;
+}
+
+.container .navbar .navbar-default .header_aera .affix-top{
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /*--------------------------------------------------*/
