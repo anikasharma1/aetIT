@@ -31,13 +31,10 @@ edit autoexec.bat
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+This product can be used by AET in order to promote the IT pathway to visitors and community members alike.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
 
 ```sh
 make install
