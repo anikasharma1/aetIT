@@ -696,7 +696,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .what_we_area .tittle h4 {
   color: #333;
-  text-transform: lowercase;
+/*  text-transform: lowercase;*/
   font-size: 15px;
   font-family: monospace;
 }
@@ -1139,7 +1139,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-right: 30px;
 }
 .testimonial_area .testimonial_carosel .item .media .media-left a img {
-  width: auto;
+  width: 80px;
+  height: 100px;
 }
 .testimonial_area .testimonial_carosel .item .media .media-body {
   padding-top: 40px;
