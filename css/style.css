@@ -698,14 +698,17 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .what_we_area .tittle h4 {
   color: #333;
+  text-transform: lowercase;
+  font-size: 15px;
+  font-family: monospace;
 }
 .what_we_area .construction_iner {
   padding-top: 60px;
-  padding-bottom: 70px;
+/*  padding-bottom: 70px;*/
 }
 .what_we_area .construction_iner .construction {
   text-align: center;
-  padding-bottom: 30px;
+/*  padding-bottom: 30px;*/
   cursor: move;
 }
 .what_we_area .construction_iner .construction .cns-img {
@@ -718,7 +721,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .what_we_area .construction_iner .construction .cns-content {
   background: #fff;
   padding: 0 30px;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
   margin-top: -30px;
 }
 .what_we_area .construction_iner .construction .cns-content i {
@@ -735,7 +738,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .what_we_area .construction_iner .construction .cns-content a {
   font: 700 18px "Roboto", sans-serif;
-  text-transform: uppercase;
   color: #222222;
   padding-top: 17px;
   display: block;
@@ -1121,6 +1123,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /*--------------------------------------------------*/
 /* Testimonial Area */
 .testimonial_area {
+  padding-top: 0px;
   padding-bottom: 90px;
   background: #fefefe;
 }
