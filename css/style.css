@@ -567,8 +567,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End slider_area_tow */
 /* Banner Area */
 .banner_area {
-  background: url("../images/banner-bg.jpg") no-repeat fixed;
+  background: url("https://images.readwrite.com/wp-content/uploads/2018/04/coding-825x500.jpg") no-repeat fixed;
   background-position: center;
+  background-size: cover;
   text-align: center;
   position: relative;
   z-index: 1;
