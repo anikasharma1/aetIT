@@ -1,10 +1,9 @@
 # AET IT Website
+
+#Group members
+Alfred Premkumar and Anika Sharma
 >.A website that provides information about the AET IT pathway
 
-
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 
 The AET IT website will provide general information about the pathway to parents
 and other members of the community that may not be as familiar about the program.
@@ -13,25 +12,10 @@ The website will also serve as a useful tool for students since they will gain
 access to relevant opportunities available to them in a streamlined fashion all
 in one location (the Student Center)
 
-![](header.png)
+#https://anikasharma1.github.io/aetIT/
 
-## Installation
-
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Usage example
-
-This product can be used by AET in order to promote the IT pathway to visitors and community members alike.
+#Status
+Right now, all pages' structures have been finished. What remains to be completed is the Extracurriculars page and other formatting.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
@@ -92,10 +76,14 @@ npm test
           * made changes to style.CSS
             * corrected css class of 'tables' to adjust formatting for courses offered page
             * adjusted fonts and padding of elements as needed
+#Customer Request
+Provide general information about the IT pathway, Promote opportunities , Promote the programming clubs, Solicit feedback and ideas from the community
+Remove mention of admission process, Student Center edits regarding password encryptions
+
 
 ## Meta
 
-Anika Sharma and Alfred Prenkunar – [@YourTwitter](https://twitter.com/dbader_org) – anika.emails@gmail.com
+Anika Sharma and Alfred Premkunar – [@YourTwitter](https://twitter.com/dbader_org) – anika.emails@gmail.com
 
 Distributed under the Colorlib license. See ``Colorlib`` for more information.
 
